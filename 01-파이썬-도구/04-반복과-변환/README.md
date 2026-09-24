@@ -4,6 +4,7 @@
 
 | 하고 싶은 일 | 함수·문법 |
 | --- | --- |
+| [다음 값 하나 꺼내기 — next](next.md) | next · iter |
 | [반복 가능한 값과 한 번씩 꺼내는 값](iterable-iterator.md) | iterable · iterator |
 | [정수 범위 반복하기 — range](range.md) | range |
 | [인덱스와 값 함께 꺼내기 — enumerate](enumerate.md) | enumerate |

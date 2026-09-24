@@ -44,6 +44,7 @@
 | [각 원소를 같은 함수로 변환하기 — map](04-반복과-변환/map.md) | map |
 | [함께 순회하기·역순 순회하기](04-반복과-변환/zip-reversed.md) | zip · reversed |
 | [문자·숫자·리스트로 타입 바꾸기](04-반복과-변환/type-conversion.md) | int · str · list · tuple |
+| [다음 값 하나 꺼내기](04-반복과-변환/next.md) | next · iter |
 
 ## 05. [중복·대응·빈도](05-집합과-딕셔너리/README.md)
 
@@ -60,6 +61,7 @@
 | [컴프리헨션과 제너레이터 표현식](06-문법/comprehension.md) | 컴프리헨션 · 제너레이터 |
 | [인덱싱·슬라이싱·뒤집기](06-문법/slicing.md) | 슬라이싱 · [::-1] |
 | [두 값 교환하기 — swap](06-문법/swap.md) | swap |
+| [빈 값 판별과 기본값](06-문법/truthiness.md) | or · not |
 
 ## 읽는 방법
 
