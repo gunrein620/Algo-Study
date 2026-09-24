@@ -65,6 +65,9 @@ assert solution(10_000_000_000) == [0] * 10 + [1]
 관련 도구: [map과 형변환](../python/builtins/iteration-collections.md).
 관련 패턴: [자릿수 다루기](../patterns/math.md).
 
+비교 복습: [정수 내림차순으로 배치하기](2026-09-24-sort-digits-descending.md)에서
+정렬/뒤집기와 정수 하나/정수 리스트의 차이를 함께 확인합니다.
+
 </details>
 
 ## 이 문제에서 가져갈 것
