@@ -8,6 +8,7 @@
 
 | 하고 싶은 일 | 관련 도구 |
 | --- | --- |
+| [빠진 값의 합 구하기](15-missing-sum.md) | 전체 합 − 입력 합 |
 | [조건에 맞는 개수·합 구하기](01-count-sum.md) | [count](../01-파이썬-도구/03-리스트/count.md) |
 | [고정된 입력을 출력으로 바꾸기](02-mapping.md) | [dict · fromkeys · get · keys · values · items](../01-파이썬-도구/05-집합과-딕셔너리/dict.md) |
 | [순서를 유지하며 중복 제거하기](03-deduplicate.md) | [dict · fromkeys · get · keys · values · items](../01-파이썬-도구/05-집합과-딕셔너리/dict.md) |
