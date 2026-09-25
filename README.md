@@ -75,6 +75,7 @@
 | [정수 제곱근 판별](04-복습노트/perfect-square.md) | isqrt 후보와 제곱 비교 |
 | [짝수와 홀수](04-복습노트/even-odd.md) | 나머지와 조건 표현식 |
 | [평균 구하기](04-복습노트/average.md) | sum/len, /와 // |
+| [내적](04-복습노트/dot-product.md) | zip으로 같은 위치끼리 곱하고 sum으로 합산 |
 | [나머지가 1이 되는 수](04-복습노트/remainder-one.md) | 첫 일치 반환, next |
 | [x만큼 간격이 있는 n개의 숫자](04-복습노트/spaced-numbers.md) | 계산 결과를 리스트로 만들기 |
 | [없는 숫자 더하기](04-복습노트/missing-digits.md) | not in, 전체 합에서 빼기 |
