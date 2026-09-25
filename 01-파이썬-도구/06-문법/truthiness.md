@@ -45,4 +45,4 @@ print(solution([3, 2, 6], 10))     # [-1]
 - or 자체는 리스트를 복사하거나 수정하지 않습니다. 선택한 객체를 반환합니다.
 - 0도 유효한 결과라면 `answer or 기본값`이 의도와 다를 수 있습니다. None만 대체하려면 `기본값 if answer is None else answer`를 씁니다.
 
-[컴프리헨션](comprehension.md) · [나누어 떨어지는 숫자 배열 오답 기록](../../03-오답노트/2026-09-25-divisible-array.md)
+[컴프리헨션](comprehension.md) · [나누어 떨어지는 숫자 배열 오답 기록](../../03-오답노트/2026-09-25-divisible-array.py)
