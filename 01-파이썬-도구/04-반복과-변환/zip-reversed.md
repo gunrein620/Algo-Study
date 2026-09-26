@@ -78,4 +78,4 @@ print(list(reversed([])))      # []
 
 일반 제너레이터에는 바로 적용할 수 없습니다(TypeError). 역순의 새 리스트는 `values[::-1]`로도 만들 수 있습니다.
 
-[음양 더하기 오답 기록](../../03-오답노트/2026-09-25-signed-sum.py) · [이터레이터](iterable-iterator.md)
+[음양 더하기 오답 기록](../../03-오답노트/2026-09-25-음양-더하기.py) · [이터레이터](iterable-iterator.md)
