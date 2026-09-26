@@ -11,3 +11,4 @@
 # 2026-09-25-small-substring.py — 크기가 작은 부분문자열
 # problem-template.py — 문제명
 # 기초-회상-질문.py — 기초 회상 — 헷갈릴 때만 확인
+# 2026-09-26-weird-string.py — 이상한 문자 만들기: split, enumerate, join

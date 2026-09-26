@@ -23,6 +23,7 @@
 
 | 문제 | 먼저 확인할 것 |
 | --- | --- |
+| [이상한 문자 만들기](../03-오답노트/2026-09-26-weird-string.py) | split으로 단어 분리 · enumerate의 위치 · join의 공백 |
 | [크기가 작은 부분문자열](../03-오답노트/2026-09-25-small-substring.py) | len(t) - length + 1과 t[i:i + length] 연결 |
 | [자연수 뒤집기](../03-오답노트/2026-09-24-reverse-digits.py) | 정렬과 뒤집기, 함수 결과에 슬라이싱 |
 | [정수 내림차순 배치](../03-오답노트/2026-09-24-sort-digits-descending.py) | join에 넣을 타입 |
