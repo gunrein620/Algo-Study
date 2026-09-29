@@ -1,23 +1,29 @@
-# 값 대응과 순서 유지 중복 제거 — dict
+# 딕셔너리 — 키로 값 저장하고 찾기
 
 [전체 목차](../../README.md) · [도구 목차](../README.md) · [이 장 목차](README.md)
 
-`dict`는 key → value 대응을 저장합니다. key는 hashable이어야 하며 중복 key는 하나만 남습니다.
-`d[key]`는 없으면 KeyError, `d.get(key, default)`는 없으면 default(생략 시 None)를 반환합니다.
-`keys()`, `values()`, `items()`는 각각 key, 값, `(key, value)`의 동적 view를 반환합니다.
+실행 예제와 예상 출력은 **[딕셔너리 기본서 (.py)](딕셔너리-기본.py)**에서 읽습니다. 먼저 1~5를 익히고, 위치 기록과 추가 도구로 넘어가세요.
 
-`dict.fromkeys(iterable, value=None)`는 처음 등장한 순서대로 key를 넣은 새 dict를 만듭니다.
-빈 입력은 `{}`입니다. Python 3.7 이상에서 dict의 삽입 순서는 언어 차원에서 보장됩니다.
+## 꼭 기억할 5가지
 
-```python
-d = dict.fromkeys("people")
-assert list(d) == ["p", "e", "o", "l"]
-assert "".join(d) == "peol"
-assert list(d.values()) == [None, None, None, None]
-assert d.get("z", 0) == 0
-assert list(dict.fromkeys([3, 1, 3])) == [3, 1]
-```
+1. `d[키]`는 그 키의 **값**을 가져옵니다. 값으로 키를 역조회하는 문법이 아닙니다.
+2. `d[ch]`는 변수 ch에 담긴 값으로, `d['ch']`는 문자열 'ch'로 조회합니다.
+3. `key in d`는 **키** 존재 여부를 True/False로 알려줍니다.
+4. `d[key] = value`는 없는 키면 추가, 있는 키면 값 변경입니다. 다른 키는 남습니다.
+5. 없는 키를 바로 조회하면 KeyError입니다. 존재가 불확실하면 먼저 in으로 확인합니다.
 
-value에 `[]` 같은 변경 가능한 객체를 넣으면 모든 key가 **같은 객체**를 공유합니다.
-각 key에 별도 리스트가 필요하면 `{key: [] for key in keys}`를 씁니다.
-순서 유지 중복 제거는 [패턴 장](../../02-풀이-패턴/03-deduplicate.md)에서 복습합니다.
+## 글자별 마지막 위치 기록
+
+빈 딕셔너리는 반복문 밖에서 만듭니다. enumerate의 idx는 현재 위치, ch는 글자입니다. 이전 위치를 조회하고 **현재 위치 − 이전 위치**를 계산한 뒤 현재 위치로 갱신합니다. 처음 본 글자도 기록해야 합니다.
+
+## 기본기가 익숙해진 뒤
+
+| 도구 | 용도 |
+| --- | --- |
+| keys / values / items | 키 / 값 / (키, 값) 쌍 순회. 원본을 반영하는 뷰 반환 |
+| get | 없는 키에 기본값 사용. 생략하면 None. 원본 변경 없음 |
+| dict.fromkeys | 첫 등장 순서대로 중복 키를 합친 새 딕셔너리 생성 |
+
+값으로 키를 찾으려면 items로 확인합니다. 값은 중복될 수 있어 결과 키가 여러 개일 수 있습니다. fromkeys에 리스트를 값으로 주면 모든 키가 같은 리스트를 공유하므로 주의하세요.
+
+[순서 유지 중복 제거 패턴](../../02-풀이-패턴/03-deduplicate.md)
