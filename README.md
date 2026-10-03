@@ -13,8 +13,8 @@
 
 | 궁금한 것 | 바로 읽기 |
 | --- | --- |
-| 같은 위치의 두 배열을 함께 순회 | [zip](01-파이썬-도구/04-반복과-변환/zip-reversed.md) |
-| 조건을 만족하는 첫 값 하나 | [next](01-파이썬-도구/04-반복과-변환/next.md) |
+| 같은 위치의 두 배열을 함께 순회 | [zip](01-파이썬-도구/04-반복과-변환/zip-reversed.ipynb) |
+| 조건을 만족하는 첫 값 하나 | [next](01-파이썬-도구/04-반복과-변환/next.ipynb) |
 | 컴프리헨션에서 if/else 위치가 헷갈림 | [필터와 값 변환](01-파이썬-도구/06-문법/comprehension.md) |
 | 결과가 없으면 기본값 반환 | [빈 값과 or](01-파이썬-도구/06-문법/truthiness.md) |
 | 빠진 숫자들의 합 | [전체 합에서 빼기](02-풀이-패턴/15-missing-sum.md) |
@@ -22,7 +22,7 @@
 | `str(n)[::-1]`은 왜 되는가? | [슬라이싱과 함수 반환값](01-파이썬-도구/06-문법/slicing.md#slice-return-value) |
 | 정렬과 뒤집기는 어떻게 다른가? | [sorted / sort](01-파이썬-도구/03-리스트/sorted-sort.md) · [뒤집기](01-파이썬-도구/06-문법/slicing.md) |
 | 문자열을 합치는데 타입 오류가 난다 | [join](01-파이썬-도구/02-문자열/join.md) · [내 오답 기록](03-오답노트/2026-09-24-정수-내림차순으로-배치하기.ipynb) |
-| 각 문자를 숫자로 바꾸기 | [map](01-파이썬-도구/04-반복과-변환/map.md) · [int / str](01-파이썬-도구/04-반복과-변환/type-conversion.md) |
+| 각 문자를 숫자로 바꾸기 | [map](01-파이썬-도구/04-반복과-변환/map.ipynb) · [int / str](01-파이썬-도구/04-반복과-변환/type-conversion.ipynb) |
 | 값이 몇 개 있는지 / 어디에 있는지 | [count](01-파이썬-도구/03-리스트/count.md) · [index / find](01-파이썬-도구/03-리스트/index-find.md) |
 | 중복을 없애되 원래 순서는 유지 | [순서 유지 중복 제거](02-풀이-패턴/03-deduplicate.md) |
 | 조건에 맞는 값의 개수나 합 | [조건별 집계 패턴](02-풀이-패턴/01-count-sum.md) |
@@ -36,7 +36,7 @@
 | **[숫자 계산](01-파이썬-도구/01-숫자/README.md)** | [길이·합·최솟값·최댓값](01-파이썬-도구/01-숫자/len-sum-min-max.md) · [몫·나머지](01-파이썬-도구/01-숫자/division.md) · [gcd / lcm](01-파이썬-도구/01-숫자/gcd-lcm.md) · [isqrt](01-파이썬-도구/01-숫자/isqrt.md) · [Fraction](01-파이썬-도구/01-숫자/fraction.md) |
 | **[문자열 다루기](01-파이썬-도구/02-문자열/README.md)** | [join](01-파이썬-도구/02-문자열/join.md) · [split](01-파이썬-도구/02-문자열/split.md) · [replace](01-파이썬-도구/02-문자열/replace.md) · [isdigit](01-파이썬-도구/02-문자열/isdigit.md) · [대소문자](01-파이썬-도구/02-문자열/case.md) |
 | **[리스트 다루기](01-파이썬-도구/03-리스트/README.md)** | [sorted / sort](01-파이썬-도구/03-리스트/sorted-sort.md) · [count](01-파이썬-도구/03-리스트/count.md) · [index / find](01-파이썬-도구/03-리스트/index-find.md) · [append](01-파이썬-도구/03-리스트/append.md) |
-| **[반복과 타입 변환](01-파이썬-도구/04-반복과-변환/README.md)** | [range](01-파이썬-도구/04-반복과-변환/range.md) · [enumerate](01-파이썬-도구/04-반복과-변환/enumerate.md) · [map](01-파이썬-도구/04-반복과-변환/map.md) · [zip / reversed](01-파이썬-도구/04-반복과-변환/zip-reversed.md) · [타입 변환](01-파이썬-도구/04-반복과-변환/type-conversion.md) · [iterable / iterator](01-파이썬-도구/04-반복과-변환/iterable-iterator.md) |
+| **[반복과 타입 변환](01-파이썬-도구/04-반복과-변환/README.md)** | [range](01-파이썬-도구/04-반복과-변환/range.ipynb) · [enumerate](01-파이썬-도구/04-반복과-변환/enumerate.ipynb) · [map](01-파이썬-도구/04-반복과-변환/map.ipynb) · [zip / reversed](01-파이썬-도구/04-반복과-변환/zip-reversed.ipynb) · [타입 변환](01-파이썬-도구/04-반복과-변환/type-conversion.ipynb) · [iterable / iterator](01-파이썬-도구/04-반복과-변환/iterable-iterator.ipynb) |
 | **[중복·대응·빈도](01-파이썬-도구/05-집합과-딕셔너리/README.md)** | [set](01-파이썬-도구/05-집합과-딕셔너리/set.md) · [dict 요약](01-파이썬-도구/05-집합과-딕셔너리/dict.md) · [dict 기본서 (.py)](01-파이썬-도구/05-집합과-딕셔너리/딕셔너리-기본.py) · [Counter](01-파이썬-도구/05-집합과-딕셔너리/counter.md) |
 | **[Python 문법](01-파이썬-도구/06-문법/README.md)** | [컴프리헨션](01-파이썬-도구/06-문법/comprehension.md) · [슬라이싱·뒤집기](01-파이썬-도구/06-문법/slicing.md) · [swap](01-파이썬-도구/06-문법/swap.md) |
 
@@ -105,7 +105,7 @@ Algo-Study/
 │   ├── 01-숫자/              ← isqrt.md, gcd-lcm.md …
 │   ├── 02-문자열/            ← join.md, split.md …
 │   ├── 03-리스트/            ← sorted-sort.md, count.md …
-│   ├── 04-반복과-변환/       ← map.md, enumerate.md …
+│   ├── 04-반복과-변환/       ← range.ipynb, map.ipynb …
 │   ├── 05-집합과-딕셔너리/   ← set.md, dict.md, counter.md
 │   └── 06-문법/              ← slicing.md, comprehension.md …
 ├── 02-풀이-패턴/             ← 패턴 하나당 문서 하나

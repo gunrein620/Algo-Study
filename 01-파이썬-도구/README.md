@@ -36,15 +36,18 @@
 
 ## 04. [반복과 타입 변환](04-반복과-변환/README.md)
 
+모든 본문은 실행 가능한 노트북 교재입니다. **개념 → 모범 코드 → 값·타입 추적 → 일반 for문**으로 읽습니다.
+처음에는 아래 순서대로 읽고, next는 마지막에 보세요.
+
 | 찾는 내용 | 함수·문법 |
 | --- | --- |
-| [반복 가능한 값과 한 번씩 꺼내는 값](04-반복과-변환/iterable-iterator.md) | iterable · iterator |
-| [정수 범위 반복하기 — range](04-반복과-변환/range.md) | range |
-| [인덱스와 값 함께 꺼내기 — enumerate](04-반복과-변환/enumerate.md) | enumerate |
-| [각 원소를 같은 함수로 변환하기 — map](04-반복과-변환/map.md) | map |
-| [함께 순회하기·역순 순회하기](04-반복과-변환/zip-reversed.md) | zip · reversed |
-| [문자·숫자·리스트로 타입 바꾸기](04-반복과-변환/type-conversion.md) | int · str · list · tuple |
-| [다음 값 하나 꺼내기](04-반복과-변환/next.md) | next · iter |
+| [정수 범위 반복하기 — range](04-반복과-변환/range.ipynb) | range |
+| [인덱스와 값 함께 꺼내기 — enumerate](04-반복과-변환/enumerate.ipynb) | enumerate |
+| [문자·숫자·리스트로 타입 바꾸기](04-반복과-변환/type-conversion.ipynb) | int · str · list · tuple |
+| [각 원소를 같은 함수로 변환하기 — map](04-반복과-변환/map.ipynb) | map |
+| [함께 순회하기·역순 순회하기](04-반복과-변환/zip-reversed.ipynb) | zip · reversed |
+| [반복 가능한 값과 한 번씩 꺼내는 값](04-반복과-변환/iterable-iterator.ipynb) | iterable · iterator |
+| [다음 값 하나 꺼내기](04-반복과-변환/next.ipynb) | next · iter |
 
 ## 05. [중복·대응·빈도](05-집합과-딕셔너리/README.md)
 
