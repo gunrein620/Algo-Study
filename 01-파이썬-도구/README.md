@@ -54,7 +54,7 @@
 | 찾는 내용 | 함수·문법 |
 | --- | --- |
 | [중복 제거와 집합 연산 — set](05-집합과-딕셔너리/set.md) | set · add |
-| [키로 값 저장하고 찾기 — dict](05-집합과-딕셔너리/dict.md) · [기본서 (.py)](05-집합과-딕셔너리/딕셔너리-기본.py) | dict · fromkeys · get · keys · values · items |
+| [키로 값 저장하고 찾기 — dict](05-집합과-딕셔너리/dict.md) · [기본서 (.py)](05-집합과-딕셔너리/딕셔너리-기본.py) · [읽으며 배우는 교재 (.ipynb)](05-집합과-딕셔너리/딕셔너리-개념.ipynb) · [기초 연습 10문제 (.ipynb)](05-집합과-딕셔너리/딕셔너리-기초-연습.ipynb) | dict · fromkeys · get · keys · values · items |
 | [전체 빈도 세기 — Counter](05-집합과-딕셔너리/counter.md) | Counter · most_common |
 
 ## 06. [Python 문법](06-문법/README.md)
